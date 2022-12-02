@@ -44,7 +44,6 @@ public class Home_Page extends javax.swing.JFrame {
         jLabel1.setToolTipText("");
         jLabel1.setAutoscrolls(true);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sunil\\Desktop\\Grocery.png")); // NOI18N
         jLabel2.setText("Grocery Shop Managment");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -62,7 +61,7 @@ public class Home_Page extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(380, 420, 140, 33);
+        jButton1.setBounds(440, 340, 140, 33);
 
         jButton2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton2.setForeground(java.awt.Color.blue);
@@ -73,7 +72,7 @@ public class Home_Page extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2);
-        jButton2.setBounds(120, 410, 129, 33);
+        jButton2.setBounds(180, 340, 129, 33);
 
         jButton3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton3.setForeground(java.awt.Color.blue);
@@ -84,7 +83,7 @@ public class Home_Page extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton3);
-        jButton3.setBounds(240, 340, 138, 36);
+        jButton3.setBounds(300, 260, 138, 36);
 
         jButton4.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton4.setForeground(java.awt.Color.blue);
@@ -95,7 +94,7 @@ public class Home_Page extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton4);
-        jButton4.setBounds(490, 340, 131, 36);
+        jButton4.setBounds(550, 260, 131, 36);
 
         jButton6.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton6.setForeground(java.awt.Color.blue);
@@ -106,19 +105,19 @@ public class Home_Page extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton6);
-        jButton6.setBounds(10, 340, 131, 36);
+        jButton6.setBounds(60, 260, 131, 36);
 
         jLabel3.setBackground(java.awt.Color.black);
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel3.setForeground(java.awt.Color.red);
         jLabel3.setText("Grocery Shop Managment");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(60, 200, 550, 50);
+        jLabel3.setBounds(160, 140, 550, 50);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sunil\\Desktop\\Grocery.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Screenshot (137).png"))); // NOI18N
         jLabel4.setText("jLabel4");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(-9, 3, 640, 520);
+        jLabel4.setBounds(0, 0, 740, 480);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

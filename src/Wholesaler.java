@@ -200,7 +200,7 @@ jTextField4.setText("");
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // Update
-        try{
+       try{
         MongoClient mongoClient = null;
         mongoClient = new MongoClient( "localhost",27017);
         DB db = mongoClient.getDB("grocery");
@@ -208,6 +208,7 @@ jTextField4.setText("");
         
         BasicDBObject queryObj = new BasicDBObject("Wholesaler_ID",jTextField1.getText());
         BasicDBObject newObj=new BasicDBObject("Wholesaler_ID",jTextField1.getText()).append("Product_ID",jTextField2.getText()).append("Product_type",jTextField3.getText()).append("Quantity",jTextField4.getText());
+        coll.update(queryObj, newObj);
         System.out.println("INFORMATION UPDATED SUCCESSFULLY");
     
     }
@@ -221,7 +222,7 @@ jTextField4.setText("");
 MongoClient mongoClient=null;
 mongoClient=new MongoClient("localhost",27017); 
 DB db=mongoClient.getDB("grocery");
-DBCollection coll=db.getCollection("WholeSaler");
+DBCollection coll=db.getCollection("Wholesaler");
 System.out.println("Connection created");
 
 BasicDBObject doc =new BasicDBObject(); doc.put("Wholesaler_ID",jTextField1.getText()); 

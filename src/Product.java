@@ -234,13 +234,12 @@ System.out.println("Document deleted sucessfully");
 
 }catch (Exception ex ) {
         }
-
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // Update
-        try{
+       try{
         MongoClient mongoClient = null;
         mongoClient = new MongoClient( "localhost",27017);
         DB db = mongoClient.getDB("grocery");
