@@ -191,8 +191,7 @@ public class Customer extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton5)
-                    .addComponent(jButton6))
-                .addContainerGap(43, Short.MAX_VALUE))
+                    .addComponent(jButton6)))
         );
 
         pack();
